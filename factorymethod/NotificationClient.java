@@ -1,6 +1,6 @@
-package factory_method;
+package factorymethod;
 
-import factory_method.notification.Notification;
+import factorymethod.notification.Notification;
 
 import java.util.Scanner;
 

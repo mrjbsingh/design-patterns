@@ -1,9 +1,9 @@
-package factory_method;
+package factorymethod;
 
-import factory_method.notification.EmailNotification;
-import factory_method.notification.Notification;
-import factory_method.notification.PushNotification;
-import factory_method.notification.SMSNotification;
+import factorymethod.notification.EmailNotification;
+import factorymethod.notification.Notification;
+import factorymethod.notification.PushNotification;
+import factorymethod.notification.SMSNotification;
 
 public class NotificationFactory {
     public Notification createNotification(String channel){

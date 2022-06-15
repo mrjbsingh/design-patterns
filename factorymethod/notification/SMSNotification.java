@@ -1,4 +1,4 @@
-package factory_method.notification;
+package factorymethod.notification;
 
 public class SMSNotification implements Notification{
     @Override
