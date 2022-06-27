@@ -10,7 +10,8 @@ public class FurnitureFactory {
         switch (designType.toUpperCase()){
             case "MODERN" :
                 return new ModernFurnitureFactory();
-            case "VICTORIAN" : return new VictorianFurnitureFactory();
+            case "VICTORIAN" :
+                return new VictorianFurnitureFactory();
             default:
                 throw new RuntimeException("Not a valid type of factory");
         }
